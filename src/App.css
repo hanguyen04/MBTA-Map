@@ -1,0 +1,209 @@
+
+/*search-bar--------------------------------------------------*/
+input {
+  border: unset;
+  background-color: white;
+  height: 40px;
+  width: 800px;
+  margin-left: 20px;
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-submit {
+  border: unset;
+  background: none;
+  padding-top: 10px;
+}
+
+.mag-glass svg{
+  width: 40px; 
+  height: 40px; 
+}
+
+.autocomplete-list {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+  position: absolute;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.autocomplete-list button {
+  border: unset;
+  background: unset;
+  display: block;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.autocomplete-list li {
+  border: 1px solid lightgray;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  
+}
+
+.autocomplete-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.station-name-btn {
+  width: 100%;
+}
+
+/*-------------------------------------------------------------*/
+
+/*pg1--------------------------------------------------*/
+.Home{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: Helvetica;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+.station-name{
+  width: 100%;
+  background-color: #029767;
+  align-items: center;
+  color: white;
+  height: 100px;
+  margin-bottom: 6%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  align-self: center;
+  padding-top: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.search-container {
+  width: 65%;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin-left: 17.5%;
+}
+
+.search-container form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px; 
+}
+
+.map-frame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.map-frame iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/*pg2 -------------------------------------------*/
+#container {
+  height: 100%;
+  display: flex;
+}
+
+#sidebar {
+  flex-basis: 15rem;
+  flex-grow: 1;
+  padding: 1rem;
+  max-width: 30rem;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#map {
+  flex-basis: 0;
+  flex-grow: 4;
+  height: 100%;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  line-height: 30px;
+  font-family: "Helvetica", "sans-serif";
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  text-align: left;
+  height: auto;
+}
+
+#map {
+  flex: auto;
+}
+
+#sidebar {
+  flex: 0 1 auto;
+  padding: 0;
+}
+#sidebar > div {
+  padding: 0.5rem;
+}
+
+.button-final {
+  position: absolute;
+  z-index: 5;
+  width: 10%;
+  background-color: #029767;
+  color: white;
+  font-size: 30px;
+  height: 50px;
+  bottom: 0;
+  margin-bottom: 4%;
+  margin-left: 45%;
+  border: unset;
+  border-radius: 40px;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+h3{
+  margin-top: 10%;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: 700;
+  word-wrap: break-word
+}
